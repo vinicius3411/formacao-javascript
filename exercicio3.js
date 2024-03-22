@@ -52,7 +52,7 @@ let numeroParcelas = 0
           const parcelamento = (precoProduto + (precoProduto * 0.10)) / numeroParcelas;
           
           //resposta do parcelamento
-          console.log(`\nA forma de pagamento escolhida foi parcelado em ${numeroParcelas} o valor de cada parcela será R$ ${parcelamento.toFixed(2)}, com valor total = R$ ${(parcelamento*numeroParcelas).toFixed(2)}`)
+          console.log(`\nA forma de pagamento escolhida foi parcelado em ${numeroParcelas} vezes, o valor de cada parcela será R$ ${parcelamento.toFixed(2)}, com valor total = R$ ${(parcelamento*numeroParcelas).toFixed(2)}`)
                    
           rl.close();
         })
