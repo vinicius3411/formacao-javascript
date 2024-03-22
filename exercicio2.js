@@ -31,7 +31,7 @@ rl.question(`Insira seu peso em Kg: `, peso => {
     altura = parseFloat(altura);
 
     //calculo do IMC
-    IMC = peso / (altura*altura);
+    IMC = peso / Math.pow(altura, 2);
 
     // Classificação de acordo com IMC
     
